@@ -1,0 +1,14 @@
+{
+  "name": "blues-nutrition-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Nutrition chatbot for the Blues 10U select baseball team",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.80.0"
+  }
+}
